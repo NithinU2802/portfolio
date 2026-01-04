@@ -195,7 +195,7 @@ export const education: Education = {
 export const socialLinks = {
   github: 'https://github.com/NithinU2802',
   linkedin: 'https://www.linkedin.com/in/nithinu/',
-  portfolio: 'https://nithinu2802.github.io',
+  linktree: 'https://linktr.ee/nithinu',
 };
 
 
