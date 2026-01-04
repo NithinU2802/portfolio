@@ -15,7 +15,7 @@ export default function Contact() {
   const socialIcons = [
     { icon: FaGithub, url: socialLinks.github, label: 'GitHub' },
     { icon: FaLinkedin, url: socialLinks.linkedin, label: 'LinkedIn' },
-    { icon: FaGlobe, url: socialLinks.portfolio, label: 'Portfolio' },
+    { icon: FaGlobe, url: socialLinks.linktree, label: 'Linktree' },
   ];
 
   return (
