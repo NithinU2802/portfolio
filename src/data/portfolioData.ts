@@ -82,6 +82,10 @@ export const skills: SkillCategory[] = [
     name: 'Design Tools',
     skills: ['Canva', 'Figma'],
   },
+  {
+    name: 'Generative AI',
+    skills: ['AI Agents', 'LangGraph', 'Google ADK', 'LLMs', 'Prompt Engineering']
+  }
 ];
 
 export const experiences: Experience[] = [
