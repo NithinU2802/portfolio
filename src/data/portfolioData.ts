@@ -46,7 +46,7 @@ export const about = {
 export const skills: SkillCategory[] = [
   {
     name: 'Technical Skills',
-    skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'SQL'],
+    skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'SQL', 'NoSQL'],
   },
   {
     name: 'Frameworks & Libraries',
@@ -80,15 +80,19 @@ export const skills: SkillCategory[] = [
   },
   {
     name: 'Design Tools',
-    skills: ['Canva'],
+    skills: ['Canva', 'Figma'],
   },
+  {
+    name: 'Generative AI',
+    skills: ['AI Agents', 'LangGraph', 'Google ADK', 'LLMs', 'Prompt Engineering']
+  }
 ];
 
 export const experiences: Experience[] = [
   {
     title: 'Specialist Programmer',
     company: 'Infosys Ltd',
-    duration: 'Oct 2024 - Present',
+    duration: 'Sept 2024 - Present',
     responsibilities: [
       'Built and deployed full-stack applications using Java Spring Boot, React, FastAPI, and Python.',
       'Developed a Recruitment Portal (React + FastAPI), mentored peers, and received managerial recognition.',
@@ -183,7 +187,7 @@ export const projects: Project[] = [
 export const education: Education = {
   degree: 'Bachelor of Engineering - Computer Science & Engineering',
   institution: 'K. Ramakrishnan College of Technology',
-  duration: '2020 – 2024',
+  duration: '2020 - 2024',
   highlights: [
     'Smart India Hackathon Finalist (Gujarat)',
     'Developed Android application for Nasha Mukt Abhiyan',
