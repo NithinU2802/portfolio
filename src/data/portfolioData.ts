@@ -29,7 +29,7 @@ export interface SkillCategory {
 export const personalInfo = {
   name: 'Nithin U',
   title: 'Specialist Programmer, Infosys Ltd',
-  tagline: 'Specialist Programmer at Infosys with 1+ year of experience as a Full Stack Developer. Joined Infosys on 30 September 2024, currently working on internal projects within the STG and iCerts units. Experienced in building scalable enterprise applications using Java Spring Boot, React (TypeScript), Angular, Python, and GenAI.',
+  tagline: 'Specialist Programmer at Infosys with 1.9 year of experience as a Full Stack Developer. Joined Infosys on 30 September 2024, currently working on internal projects within the STG and iCerts units. Experienced in building scalable enterprise applications using Java Spring Boot, React (TypeScript), Angular, Python, and GenAI.',
   email: 'nithinu2810@gmail.com',
   location: 'India',
   profilePhoto: 'https://nithinu2802.github.io/Assets/ImageProfile.jpg',
