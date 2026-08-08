@@ -26,10 +26,25 @@ export interface SkillCategory {
   skills: string[];
 }
 
+const getExperienceYears = (startMonth: number, startYear: number) => {
+  const now = new Date();
+  const totalMonths = (now.getFullYear() - startYear) * 12 + now.getMonth() - (startMonth - 1);
+  const years = Math.floor(totalMonths / 12);
+  const months = totalMonths % 12;
+
+  if (years === 0)
+    return `${months} month${months === 1 ? '' : 's'}`;
+
+  if (months === 0)
+    return `${years} year${years === 1 ? '' : 's'}`;
+
+  return `${years} year${years === 1 ? '' : 's'} ${months} month${months === 1 ? '' : 's'}`;
+};
+
 export const personalInfo = {
   name: 'Nithin U',
   title: 'Specialist Programmer, Infosys Ltd',
-  tagline: 'Specialist Programmer at Infosys with 1.9 year of experience as a Full Stack Developer. Joined Infosys on 30 September 2024, currently working on internal projects within the STG and iCerts units. Experienced in building scalable enterprise applications using Java Spring Boot, React (TypeScript), Angular, Python, and GenAI.',
+  tagline: `Specialist Programmer at Infosys with ${getExperienceYears(9, 2024)} of experience as a Full Stack Developer. Joined Infosys on 30 September 2024, currently working on internal projects within the STG and iCerts units. Experienced in building scalable enterprise applications using Java Spring Boot, React (TypeScript), Angular, Python, and GenAI.`,
   email: 'nithinu2810@gmail.com',
   location: 'India',
   profilePhoto: 'https://nithinu2802.github.io/Assets/ImageProfile.jpg',
